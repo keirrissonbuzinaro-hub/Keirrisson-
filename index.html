@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Autobiografia | Keirrisson</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f3f8;
+            color: #333;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 25px 10%;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        .inicio {
+            background: linear-gradient(135deg, #172554, #2563eb);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .inicio h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .inicio p {
+            font-size: 19px;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 35px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px #00000015;
+        }
+
+        .card h2 {
+            color: #1d4ed8;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #dbeafe;
+            padding-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 17px;
+            line-height: 1.9;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .informacoes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .info {
+            background: #eff6ff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .info h3 {
+            color: #1d4ed8;
+            margin-bottom: 10px;
+        }
+
+        .frase {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .frase h2 {
+            color: #93c5fd;
+            margin-bottom: 20px;
+        }
+
+        .frase p {
+            font-size: 21px;
+            font-style: italic;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media(max-width: 600px) {
+            .inicio h2 {
+                font-size: 30px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .card {
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Minha Autobiografia</h1>
+        <p>Conheça um pouco da minha história</p>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#historia">Minha história</a>
+            <a href="#futuro">Meu futuro</a>
+        </nav>
+    </header>
+
+    <section class="inicio" id="inicio">
+        <h2>Olá, eu sou Keirrisson!</h2>
+
+        <p>
+            Tenho 15 anos e estou construindo minha própria história.
+        </p>
+    </section>
+
+    <main class="container">
+
+        <section class="card" id="sobre">
+            <h2>Quem sou eu?</h2>
+
+            <p>
+                Meu nome é Keirrisson Bernardo de Sousa Buzinaro,
+                tenho 15 anos e nasci em Rosário do Ivaí, no Paraná.
+            </p>
+
+            <div class="informacoes">
+
+                <div class="info">
+                    <h3>Nome</h3>
+                    <p>Keirrisson Bernardo</p>
+                </div>
+
+                <div class="info">
+                    <h3>Idade</h3>
+                    <p>15 anos</p>
+                </div>
+
+                <div class="info">
+                    <h3>Naturalidade</h3>
+                    <p>Rosário do Ivaí - PR</p>
+                </div>
+
+                <div class="info">
+                    <h3>Escolaridade</h3>
+                    <p>1º ano do Ensino Médio</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="card" id="historia">
+            <h2>Minha história</h2>
+
+            <p>
+                Atualmente, estudo no 1º ano do Ensino Médio,
+                no período noturno, e trabalho durante o dia.
+                Minha rotina é bastante corrida, pois preciso
+                dividir meu tempo entre o trabalho e os estudos.
+                Mesmo com os desafios e o cansaço do dia a dia,
+                procuro me dedicar e seguir em frente.
+            </p>
+
+            <p>
+                Acredito que estudar e trabalhar desde cedo são
+                experiências que contribuem para o meu crescimento,
+                ensinando-me a ter responsabilidade, compromisso
+                e determinação.
+            </p>
+
+            <p>
+                Sou uma pessoa que está construindo sua própria
+                história, aprendendo com as experiências e buscando
+                conquistar meus objetivos.
+            </p>
+        </section>
+
+        <section class="card" id="futuro">
+            <h2>Meus sonhos e meu futuro</h2>
+
+            <p>
+                Tenho sonhos para o futuro e espero continuar
+                estudando, trabalhando e aproveitando cada
+                oportunidade para crescer na vida.
+            </p>
+
+            <p>
+                Sei que ainda tenho muito a aprender e muitos
+                desafios pela frente, mas quero construir um
+                futuro melhor por meio do meu esforço e da
+                minha dedicação.
+            </p>
+
+            <p>
+                Essa é um pouco da minha história,
+                uma trajetória que está apenas começando!
+            </p>
+        </section>
+
+    </main>
+
+    <section class="frase">
+        <h2>Minha história, meu futuro!</h2>
+
+        <p>
+            "O futuro pertence àqueles que acreditam
+            na força dos seus sonhos."
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 - Autobiografia de Keirrisson</p>
+        <p>Minha história está apenas começando!</p>
+    </footer>
+
+</body>
+</html>
